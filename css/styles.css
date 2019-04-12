@@ -1,8 +1,14 @@
+/* Google Fonts used */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700i,800');
+
+/* end fonts */
 .static{
     border: 1px solid salmon;
     padding: 10px;
     margin-bottom: 30px;
     position: static;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .relative-1{
@@ -10,6 +16,9 @@
     padding: 10px;
     /* margin: 10px; */
     position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 .relative-2{
     border: 1px solid forestgreen;
@@ -20,12 +29,16 @@
     /* left: 670px;
     width: 725px; */
     margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 .static-1{
     border: 1px solid tomato;
     padding: 10px;
     height: 300px;
     position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 .absolute{
     border: solid 1px black;
